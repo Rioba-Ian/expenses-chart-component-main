@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+
+:root {
+    --cyan-color: hsl(186, 34%, 60%);
+    --soft-red: hsl(10, 79%, 65%);
+    --dark-brown: hsl(25, 47%, 15%);
+    --medium-brown: hsl(28, 10%, 53%);
+    --cream: hsl(27, 66%, 92%);
+    --very-pale-orange: hsl(33, 100%, 98%);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: var(--cream);
+    font-family: 'DM', sans-serif;
+}
+
+main {
+    width: 28rem;
+    margin: 20vh auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* start of top heading article */
+.top-heading {
+    background-color: var(--soft-red);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--cream);
+}
+
+.balance>h1 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.balance>h2 {
+    font-size: 30px;
+}
+
+/* end of top heading article */
+.chart-article {
+    background-color: #fff;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.bottom-chart-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+hr {
+    margin: 1.5rem 0;
+}
