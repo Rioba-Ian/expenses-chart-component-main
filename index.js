@@ -1,5 +1,7 @@
 import data from "./data.json" assert {type: "json"}
 
+console.table(data)
+
 
 data.map(item => {
     const chartContainer = document.getElementById("chart")
@@ -9,6 +11,7 @@ data.map(item => {
 
     const dayWeek = item.day
     const barHeight = `${(item.amount / 7)}rem`
+
 
     // bar
     bar.classList.add('bar');
